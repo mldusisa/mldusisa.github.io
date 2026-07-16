@@ -33,10 +33,11 @@ document.querySelectorAll(".nav-links a").forEach(link => {
 const typingTarget = document.getElementById("typing-text");
 const phrases = [
   "cybersecurity",
-  "technical support",
-  "secure development",
-  "networking",
-  "problem solving"
+  "cloud computing",
+  "network security",
+  "IoT systems",
+  "secure software",
+  "continuous learning"
 ];
 let phraseIndex = 0;
 let charIndex = 0;
