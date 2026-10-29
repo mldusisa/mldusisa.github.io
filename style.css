@@ -351,3 +351,7 @@ body.modal-open { overflow: hidden; }
   .timeline-card { grid-template-columns: 1fr; padding: 1.35rem; }
   .profile-orbit { width: 265px; }
 }
+
+/* CV-aligned section ordering */
+.education-grid { display: grid; grid-template-columns: minmax(0, 680px); }
+@media (max-width: 980px) { .nav-links { max-height: 75vh; overflow-y: auto; } }
